@@ -2,6 +2,7 @@ import './App.css';
 import Greet from './component/Greet';
 import Welcome from './component/Welcome';
 import FunctionClick from './component/FunctionClick';
+import UserGreeting from './component/UserGreeting';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </Greet>
       <Greet fname={"Faru"} />
       <FunctionClick />
+      <UserGreeting isLoggedIn={false} userName={"Rakib"} />
     </div>
   );
 }

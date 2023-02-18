@@ -3,8 +3,21 @@ import Greet from './component/Greet';
 import Welcome from './component/Welcome';
 import FunctionClick from './component/FunctionClick';
 import UserGreeting from './component/UserGreeting';
+import NameList from './component/NameList';
 
 function App() {
+
+  const person = [
+    {
+      id: 1,
+      name: 'test'
+    },
+    {
+      id: 2,
+      name: 'Rohan'
+    }
+  ]
+
   return (
     <div className="App">
       <Greet fname={"Rakib"} lname={"khan"}>
@@ -13,6 +26,7 @@ function App() {
       <Greet fname={"Faru"} />
       <FunctionClick />
       <UserGreeting isLoggedIn={false} userName={"Rakib"} />
+      <NameList list={person} />
     </div>
   );
 }

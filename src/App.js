@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Greet from './component/Greet';
 import Welcome from './component/Welcome';
+import FunctionClick from './component/FunctionClick';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <Welcome />
       </Greet>
       <Greet fname={"Faru"} />
+      <FunctionClick />
     </div>
   );
 }

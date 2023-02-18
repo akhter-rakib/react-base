@@ -6,10 +6,10 @@ import Welcome from './component/Welcome';
 function App() {
   return (
     <div className="App">
-      <Greet name={"Rakib"}>
+      <Greet fname={"Rakib"} lname={"khan"}>
         <Welcome />
       </Greet>
-      <Greet name={"Faru"} />
+      <Greet fname={"Faru"} />
     </div>
   );
 }

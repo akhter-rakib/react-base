@@ -4,6 +4,7 @@ import Welcome from './component/Welcome';
 import FunctionClick from './component/FunctionClick';
 import UserGreeting from './component/UserGreeting';
 import NameList from './component/NameList';
+import StyleSheet from './component/StyleSheet';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <FunctionClick />
       <UserGreeting isLoggedIn={false} userName={"Rakib"} />
       <NameList list={person} />
+      <StyleSheet primary ='true'/>
     </div>
   );
 }

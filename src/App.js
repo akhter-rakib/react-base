@@ -7,6 +7,7 @@ import NameList from './component/NameList';
 import StyleSheet from './component/StyleSheet';
 import Form from './component/Form';
 import Fragment from './component/Fragment';
+import Table from './component/Table';
 function App() {
 
   const person = [
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className="App">
       <Fragment/>
+      <Table/>
       {/* <Greet fname={"Rakib"} lname={"khan"}>
         <Welcome />
       </Greet>

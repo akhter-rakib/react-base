@@ -8,6 +8,8 @@ import StyleSheet from './component/StyleSheet';
 import Form from './component/Form';
 import Fragment from './component/Fragment';
 import Table from './component/Table';
+import Refs from './component/Refs';
+import ParentRef from './component/ParentRef';
 function App() {
 
   const person = [
@@ -25,6 +27,8 @@ function App() {
     <div className="App">
       <Fragment/>
       <Table/>
+      <Refs/>
+      <ParentRef/>
       {/* <Greet fname={"Rakib"} lname={"khan"}>
         <Welcome />
       </Greet>

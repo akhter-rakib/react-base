@@ -10,6 +10,7 @@ import Fragment from './component/Fragment';
 import Table from './component/Table';
 import Refs from './component/Refs';
 import ParentRef from './component/ParentRef';
+import Http from './component/Http';
 function App() {
 
   const person = [
@@ -25,6 +26,7 @@ function App() {
 
   return (
     <div className="App">
+      {/* <Http/> */}
       <Fragment/>
       <Table/>
       <Refs/>

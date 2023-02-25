@@ -12,6 +12,7 @@ import Refs from './component/Refs';
 import ParentRef from './component/ParentRef';
 import Http from './component/Http';
 import FormPost from './component/FormPost';
+import Count from './component/Hooks/Count';
 function App() {
 
   const person = [
@@ -27,6 +28,7 @@ function App() {
 
   return (
     <div className="App">
+      <Count/>
       {/* <Http/> */}
       <FormPost/>
       <Fragment/>

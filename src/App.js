@@ -11,6 +11,7 @@ import Table from './component/Table';
 import Refs from './component/Refs';
 import ParentRef from './component/ParentRef';
 import Http from './component/Http';
+import FormPost from './component/FormPost';
 function App() {
 
   const person = [
@@ -27,6 +28,7 @@ function App() {
   return (
     <div className="App">
       {/* <Http/> */}
+      <FormPost/>
       <Fragment/>
       <Table/>
       <Refs/>
